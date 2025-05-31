@@ -7,16 +7,18 @@ body {
 .gold-text {
   color: #d4af37;
 }
-.header {
+.header, .slogan, .about, .work, .socials, .contact {
   background: #fff;
   border-radius: 20px;
+  border: 3px solid #d4af37;
+  box-shadow: 0 2px 16px 0 rgba(212,175,55,0.07);
+}
+.header {
   margin: 24px;
   padding: 24px 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid #d4af37;
-  box-shadow: 0 2px 16px 0 rgba(212,175,55,0.07);
 }
 .logo {
   font-size: 28px;
@@ -69,15 +71,11 @@ body {
   box-shadow: 0 16px 48px 0 #d4af37;
 }
 .slogan {
-  background: #fff;
-  border-radius: 20px;
   margin: 40px 0 0 0;
   padding: 48px 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid #d4af37;
-  box-shadow: 0 2px 16px 0 rgba(212,175,55,0.07);
 }
 .slogan-text {
   font-size: 2.2em;
@@ -88,29 +86,21 @@ body {
   font-size: 3em;
 }
 .about {
-  background: #fff;
-  border-radius: 20px;
   margin: 32px 0 0 0;
   padding: 40px 32px;
   display: flex;
   align-items: center;
-  border: 2px solid #d4af37;
-  box-shadow: 0 2px 16px 0 rgba(212,175,55,0.07);
 }
 .about-text {
   font-size: 1.2em;
   max-width: 100%;
 }
 .work {
-  background: #fff;
-  border-radius: 20px;
   margin: 32px 0 0 0;
   padding: 32px 32px 16px 32px;
   display: flex;
   flex-direction: column;
   gap: 18px;
-  border: 2px solid #d4af37;
-  box-shadow: 0 2px 16px 0 rgba(212,175,55,0.07);
 }
 .work-item {
   background: #fff;
@@ -119,7 +109,7 @@ body {
   font-size: 1.3em;
   font-weight: 700;
   box-shadow: 0 2px 8px 0 rgba(212,175,55,0.05);
-  border: 1.5px solid #d4af37;
+  border: 2px solid #d4af37;
   color: #000;
   transition: background 0.2s, color 0.2s;
 }
@@ -128,15 +118,11 @@ body {
   color: #fff;
 }
 .socials {
-  background: #fff;
-  border-radius: 20px;
   margin: 32px 0 0 0;
   padding: 24px 32px;
   display: flex;
   justify-content: center;
   gap: 88px;
-  border: 2px solid #d4af37;
-  box-shadow: 0 2px 16px 0 rgba(212,175,55,0.07);
 }
 .social-link {
   font-size: 1em;
@@ -150,12 +136,8 @@ body {
   color: #d4af37;
 }
 .contact {
-  background: #fff;
-  border-radius: 20px;
   margin: 32px 0 0 0;
   padding: 40px 32px;
-  border: 2px solid #d4af37;
-  box-shadow: 0 2px 16px 0 rgba(212,175,55,0.07);
 }
 .contact-title {
   font-size: 2em;
