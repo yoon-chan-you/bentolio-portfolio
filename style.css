@@ -1,0 +1,146 @@
+body {
+  background: #F9F1F0;
+  font-family: 'Gilroy', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  color: #000;
+}
+.header {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 24px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.nav a {
+  margin-left: 44px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+.slogan {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 40px 24px 0 24px;
+  padding: 48px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slogan-text {
+  font-size: 2.2em;
+  font-weight: 700;
+  max-width: 70%;
+}
+.slogan-icon {
+  font-size: 3em;
+}
+.portrait {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+.profile-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+.about {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 40px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-text {
+  font-size: 1.2em;
+  max-width: 80%;
+}
+.about-icon {
+  font-size: 2.5em;
+}
+.work {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 32px 32px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.work-item {
+  background: #F8AFA6;
+  border-radius: 16px;
+  padding: 18px 28px;
+  font-size: 1.3em;
+  font-weight: 500;
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.05);
+  display: flex;
+  align-items: center;
+}
+.socials {
+  background: #FADCD9;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+}
+.social-link {
+  font-size: 1em;
+  font-weight: 300;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.contact {
+  background: #F8AFA6;
+  border-radius: 20px;
+  margin: 24px;
+  padding: 40px 32px;
+}
+.contact-title {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.contact-bar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: 1.1em;
+  gap: 40px;
+}
+.contact-question {
+  font-size: 1em;
+  color: #000;
+}
+.contact-arrow {
+  font-size: 2em;
+}
+@media (max-width: 900px) {
+  .header, .about, .work, .slogan, .contact, .socials {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 24px 12px;
+  }
+  .slogan-text, .about-text {
+    max-width: 100%;
+  }
+  .socials {
+    gap: 24px;
+  }
+}
